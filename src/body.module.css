@@ -1,9 +1,10 @@
 .body {
   background-color: #111416;
-  color: #fff;
+  color: #111416;
   padding: 48px 32px; /* espacio arriba/abajo y en los bordes */
   text-align: center;
   font-family: "Arial", sans-serif;
+  width: 100%;
 }
 
 .titulo {

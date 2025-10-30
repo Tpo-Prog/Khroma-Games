@@ -2,8 +2,22 @@ body {
   margin: 0;
   background-color: #111416;
   font-family: Arial, sans-serif;
+  /* Reset básico */
+  padding: 0;
+  box-sizing: border-box;
 }
 
+head{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #root {
   background-color: #111416;
 }
