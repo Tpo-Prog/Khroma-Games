@@ -1,0 +1,102 @@
+.body {
+  background-color: #111416;
+  color: #fff;
+  padding: 48px 32px; /* espacio arriba/abajo y en los bordes */
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: #7b71ee;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas fijas */
+  gap: 32px; /* espacio entre tarjetas */
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 1200px; /* define el ancho máximo del grid */
+}
+
+.card {
+  background-color: #1c1f22;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  max-width: 200px;
+  box-shadow: 0 0 8px rgba(123, 113, 238, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.imagen {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.precio {
+  font-weight: bold;
+  color: #7b71ee;
+}
+
+.aviso {
+  margin-top: 32px;
+  font-size: 1rem;
+  color: #9f9daf;
+}
+
+/*Responsividad: 
+Para que en pantallas más chicas se adapten automáticamente:*/
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.titulo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #7b71ee;
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+.consolas {
+  font-weight: bold;
+  color: #7b71ee;
+}
+
+.titulo:hover {
+  color: #a89eff;
+  transform: scale(1.05);
+}
+
+.navicon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #7b71ee;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.navicon:hover {
+  background-color: rgba(123, 113, 238, 0.1);
+  transform: scale(1.05);
+  color: #a89eff;
+}
