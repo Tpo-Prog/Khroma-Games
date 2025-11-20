@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "titulo": "Assassin's Creed",
+      "imagen": "/assets/assasins.jpeg",
+      "especificacion": "Assassin's Creed 3 Remastered",
+      "precio": 12000.00,
+      "consola":"PS4"
+    },
+    {
+      "id": 2,
+      "titulo": "Call of Duty",
+      "imagen": "/assets/callofduty.jpeg",
+      "especificacion": "Call of Duty Black Ops 6",
+      "precio": 25000.00,
+      "consola":"PS4 Y PS5"
+    },
+    {
+      "id": 3,
+      "titulo": "Far Cry",
+      "imagen": "/assets/farcry.jpeg",
+      "especificacion": "Far Cry 6 Gold Edition",
+      "precio": 30000.00,
+      "consola":"PS4 Y PS5"
+    },
+    {
+      "id": 4,
+      "titulo": "GTA V",
+      "imagen": "/assets/gtav.jpeg",
+      "especificacion": "Grand Theft Auto V",
+      "precio": 20000.00,
+      "consola":"PS4 y PS5"
+    },
+    {
+      "id": 5,
+      "titulo": "Life is Strange",
+      "imagen": "/assets/lifeis.jpeg",
+      "especificacion": "Life is Strange True Colors",
+      "precio": 15000.00,
+      "consola":"PS4"
+    },
+    {
+      "id": 6,
+      "titulo": "NBA 2K26",
+      "imagen": "/assets/nba2k.jpeg",
+      "especificacion": "NBA 2K26",
+      "precio": 40000.00,
+      "consola":"PS4 Y PS5"
+    },
+    {
+      "id": 7,
+      "titulo": "Resident Evil 8",
+      "imagen": "/assets/resident.jpeg",
+      "especificacion": "Resident Evil Village",
+      "precio": 18000.00,
+      "consola":"PS4"
+    },
+    {
+      "id": 8,
+      "titulo": "Tekken 7",
+      "imagen": "/assets/tekken.jpeg",
+      "especificacion": "Tekken 7 Definitive Edition",
+      "precio": 35000.00,
+      "consola":"PS4"
+    },
+    {
+      "id": 9,
+      "titulo": "CallofDutymw3",
+      "imagen": "/assets/codmd3.jpeg",
+      "especificacion": "Call of Duty Modern Warfare 3",
+      "precio": 12000.00,
+      "consola":"PS5"
+    },
+    {
+      "id": 10,
+      "titulo": "Dragon Ball",
+      "imagen": "/assets/dbsz.jpeg",
+      "especificacion": "Dragon Ball Sparking Zero",
+      "precio": 45000.00,
+      "consola":"PS5"
+    },
+    {
+      "id": 11,
+      "titulo": "Ghost of Tsushima",
+      "imagen": "/assets/got.jpeg",
+      "especificacion": "Ghost of Tsushima",
+      "precio": 36000.00,
+      "consola":"PS4 Y PS5"
+    },
+    {
+      "id": 12,
+      "titulo": "Minecraft",
+      "imagen": "/assets/mc.jpeg",
+      "especificacion": "Minecraft",
+      "precio": 20000.00,
+      "consola":"PS4 Y PS5"
+    },
+    {
+      "id": 13,
+      "titulo": "Mortal Kombat 1",
+      "imagen": "/assets/mk1.jpeg",
+      "especificacion": "Mortal Kombat 1 Deluxe Edition",
+      "precio": 38000.00,
+      "consola":"PS5"
+    },
+    {
+      "id": 14,
+      "titulo": "Metal Gear Solid",
+      "imagen": "/assets/mts.jpeg",
+      "especificacion": "Metal Gear Solid 3 Snake Eater",
+      "precio": 55000.00,
+      "consola":"PS5"
+    },
+    {
+      "id": 15,
+      "titulo": "The Last of Us 2",
+      "imagen": "/assets/tlou2.jpeg",
+      "especificacion": "The Last of Us Part 2 Remaster",
+      "precio": 60000.00,
+      "consola":"PS5"
+    }
+  ]
+}

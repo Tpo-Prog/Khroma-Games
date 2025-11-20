@@ -56,6 +56,7 @@ header{
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
+  top: 0;
 }
 
 .Headermain h1 {
@@ -100,4 +101,17 @@ nav a {
 .titulo:hover {
   color: #a89eff;
   transform: scale(1.05);
+}
+
+/* badge contador */
+.badge {
+  background: #ff4d4f;
+  color: #fff;
+  padding: 2px 6px;
+  margin-left: 8px;
+  font-size: 0.75rem;
+}
+
+:root{
+  --header-height: 160px;
 }

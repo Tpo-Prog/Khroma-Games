@@ -101,3 +101,7 @@ Para que en pantallas más chicas se adapten automáticamente:*/
   transform: scale(1.05);
   color: #a89eff;
 }
+
+:global(body) {
+  margin: 0;
+}
