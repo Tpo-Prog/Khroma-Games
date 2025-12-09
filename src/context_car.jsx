@@ -16,11 +16,24 @@ export function CartProvider({ children }) {
   }, [cart]);
 
   function addToCart(product) {
+    // Normalizamos las propiedades para que siempre existan
+    const normalized = {
+      id: product.id,
+      titulo: product.titulo || product.title,
+      imagen: product.imagen || product.image,
+      precio: product.precio ?? product.price,
+      especificacion: product.especificacion || product.description,
+      consola: product.consola || product.category,
+    };
+
     setCart(prev => {
       const copy = [...prev];
-      const idx = copy.findIndex(p => p.id === product.id);
-      if (idx >= 0) copy[idx].qty = (copy[idx].qty || 1) + 1;
-      else copy.push({ ...product, qty: 1 });
+      const idx = copy.findIndex(p => p.id === normalized.id);
+      if (idx >= 0) {
+        copy[idx].qty = (copy[idx].qty || 1) + 1;
+      } else {
+        copy.push({ ...normalized, qty: 1 });
+      }
       return copy;
     });
   }
@@ -32,7 +45,9 @@ export function CartProvider({ children }) {
   const count = cart.reduce((s, p) => s + (p.qty || 1), 0);
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart, cartCount: count }}>
+    <CartContext.Provider
+      value={{ cart, addToCart, removeFromCart, cartCount: count }}
+    >
       {children}
     </CartContext.Provider>
   );
